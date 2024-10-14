@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="Login and Home Page Tests">
+        <classes>
+            <class name="testpom.logintestcase"/>
+            <class name="testpom.homepagetest"/>
+        </classes>
+    </test>
+</suite>

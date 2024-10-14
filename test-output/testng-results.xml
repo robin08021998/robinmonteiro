@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T17:53:28 IST" name="Default suite" finished-at="2024-10-14T17:53:34 IST" duration-ms="6221">
+    <groups>
+      <group name="init">
+        <method signature="logintestcase.passvalues()[pri:0, instance:testpom.logintestcase@272113c4]" name="passvalues" class="testpom.logintestcase"/>
+      </group> <!-- init -->
+    </groups>
+    <test started-at="2024-10-14T17:53:28 IST" name="Default test" finished-at="2024-10-14T17:53:34 IST" duration-ms="6221">
+      <class name="testpom.logintestcase">
+        <test-method is-config="true" signature="initial()[pri:0, instance:testpom.logintestcase@272113c4]" started-at="2024-10-14T17:53:28 IST" name="initial" finished-at="2024-10-14T17:53:32 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method signature="passvalues()[pri:0, instance:testpom.logintestcase@272113c4]" started-at="2024-10-14T17:53:32 IST" name="passvalues" finished-at="2024-10-14T17:53:34 IST" duration-ms="2056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passvalues -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testpom.logintestcase@272113c4]" started-at="2024-10-14T17:53:34 IST" name="close" finished-at="2024-10-14T17:53:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testpom.logintestcase -->
+      <class name="testpom.homepagetest">
+        <test-method signature="actions()[pri:0, instance:testpom.homepagetest@5a45133e]" started-at="2024-10-14T17:53:34 IST" name="actions" depends-on-groups="init" finished-at="2024-10-14T17:53:34 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actions -->
+      </class> <!-- testpom.homepagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
