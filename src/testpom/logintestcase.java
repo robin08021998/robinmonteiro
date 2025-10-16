@@ -7,7 +7,7 @@ import pagespom.loginpage;
 
 public class logintestcase extends baseclass {
 	loginpage obj;
-	@Test(groups = {"init"})
+	@Test(groups = {"loginpage"})
 	public void passvalues() 
 	{
 		

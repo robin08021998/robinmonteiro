@@ -3,20 +3,27 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testpom.homepagetest">
+      <class name="package1.poc">
         <methods>
+          <include name="passwordcheck"/>
+          <include name="openbrowser"/>
           <include name="close"/>
-          <include name="actions"/>
-          <include name="initial"/>
         </methods>
-      </class> <!-- testpom.homepagetest -->
-      <class name="testpom.logintestcase">
+      </class> <!-- package1.poc -->
+      <class name="package1.datadriven">
         <methods>
+          <include name="login" invocation-numbers="1"/>
           <include name="close"/>
-          <include name="initial"/>
-          <include name="passvalues"/>
         </methods>
-      </class> <!-- testpom.logintestcase -->
+      </class> <!-- package1.datadriven -->
+      <class name="package1.Testng">
+        <methods>
+          <include name="alert"/>
+          <include name="openbrowser"/>
+          <include name="windowclose"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- package1.Testng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

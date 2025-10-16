@@ -22,6 +22,9 @@ public class baseclass {
 	public void close()
 	{
 		//driver.close();
+		if (driver != null) {
+            driver.quit();  // Use quit() to close all browser windows and end the session
+        }
 	}
 
 }

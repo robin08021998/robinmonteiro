@@ -1,8 +1,11 @@
 package package1;
+import java.io.File;
 import java.util.Set;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -39,6 +42,9 @@ public class Class1 {
 	driver.findElement(By.xpath("//*[@id=\"Register\"]")).click();
 	Alert alert1 = driver.switchTo().alert();
 	alert1.accept();
+	TakesScreenshot ts=(TakesScreenshot)driver;
+    File sourcefile=ts.getScreenshotAs(OutputType.FILE);
+    File targetfile=new File("D:/dummypic");
 	String mainWindowHandle = driver.getWindowHandle(); 
 	driver.findElement(By.linkText("privacy policy")).click();
 	Set<String> allWindowHandles = driver.getWindowHandles();                //multiple window handling

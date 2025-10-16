@@ -10,6 +10,20 @@
           <include name="initial"/>
         </methods>
       </class> <!-- testpom.homepagetest -->
+      <class name="testpom.cartpagetest">
+        <methods>
+          <include name="close"/>
+          <include name="initial"/>
+          <include name="cartact"/>
+        </methods>
+      </class> <!-- testpom.cartpagetest -->
+      <class name="testpom.checkouttestcase">
+        <methods>
+          <include name="close"/>
+          <include name="initial"/>
+          <include name="passvalue"/>
+        </methods>
+      </class> <!-- testpom.checkouttestcase -->
       <class name="testpom.logintestcase">
         <methods>
           <include name="close"/>

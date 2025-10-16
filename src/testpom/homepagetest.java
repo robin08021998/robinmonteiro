@@ -8,7 +8,7 @@ import pagespom.homepage;
 public class homepagetest extends baseclass {
 	homepage hoobj;
 	
-	@Test(dependsOnGroups = {"init"})
+	@Test(dependsOnGroups = {"loginpage"},groups= {"homepage"})
 	public void actions ()
 	{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));

@@ -11,7 +11,7 @@ public class homepage {
 	By addtocart=By.name("add-to-cart-sauce-labs-backpack");
 	By filter=By.xpath("//*[@id=\"header_container\"]/div[2]/div/span/select");  
 	By hamburgermenu=By.xpath("//*[@id=\"react-burger-menu-btn\"]");
-	By logout=By.xpath("//*[@id=\"logout_sidebar_link\"]");
+	By logout=By.xpath("//*[@id=\"logout_sidebar_link\"]");         
 	By cart=By.xpath("//*[@id=\"shopping_cart_container\"]/a");
 	
 	public homepage(WebDriver driver) {

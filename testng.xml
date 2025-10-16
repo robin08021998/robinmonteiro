@@ -4,6 +4,8 @@
         <classes>
             <class name="testpom.logintestcase"/>
             <class name="testpom.homepagetest"/>
+            <class name="testpom.cartpagetest"/>
+            <class name="testpom.checkouttestcase"/>
         </classes>
     </test>
 </suite>

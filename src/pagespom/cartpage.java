@@ -20,7 +20,7 @@ public void checkout_button()
 {
 	driver.findElement(checkout).click();;
 }
-public void return_button()
+public void remove_button()
 {
 	driver.findElement(remove).click();;
 }
